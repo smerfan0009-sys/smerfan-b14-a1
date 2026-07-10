@@ -102,8 +102,7 @@ nav ul {
 }
 
 .speaker-card h5, h3, p {
-    margin: 25px;
-    line-height: 05px;
+    margin: 15px;
 }
 
 .speaker-card img {
@@ -113,7 +112,7 @@ nav ul {
 
 .speaker-card h5 {
     color: rgb(37, 99, 235);
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .speaker-card h3 {
@@ -123,8 +122,9 @@ nav ul {
 
 .speaker-card p {
     color: rgb(87, 87, 87);
+    margin-bottom: 30px;
 }
 
     /* speaker-section-end */
 
-    
+
