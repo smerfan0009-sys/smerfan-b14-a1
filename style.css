@@ -80,6 +80,9 @@ nav ul {
 /* hero-section-end */
 
 /* speaker-section-start */
+.mian-speaker-section {
+    margin: 50px 0px 100px;
+}
 
 .speakers h2 {
     text-align: center;
@@ -101,7 +104,9 @@ nav ul {
     overflow: hidden;
 }
 
-.speaker-card h5, h3, p {
+.speaker-card h5,
+h3,
+p {
     margin: 15px;
 }
 
@@ -125,6 +130,41 @@ nav ul {
     margin-bottom: 30px;
 }
 
-    /* speaker-section-end */
+/* speaker-section-end */
+
+/* pricing-section-start */
 
 
+.main-pricing-section .heading, p {
+    text-align: center;
+}
+
+.main-pricing-section h2 {
+    font-size: 50px;
+    color: rgb(13, 27, 42);
+}
+
+.main-pricing-section p, ul {
+    color: rgb(87, 87, 87);
+}
+
+.parent-pricing-card {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    line-height: 35px;
+}
+
+ul li::marker {
+    color: rgb(96, 165, 250);
+    font-size: 12px
+}
+
+.parent-pricing-card h5 {
+    color: rgb(136, 136, 136);
+}
+
+hr {
+    color: rgb(229, 231, 235);
+    height: 1px;
+}
