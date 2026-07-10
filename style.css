@@ -246,6 +246,7 @@ nav ul {
     color: rgb(37, 99, 235);
     font-weight: 500;
     font-size: 15px;
+    cursor: pointer;
 }
 
 #button-center {
@@ -256,6 +257,7 @@ nav ul {
     color: rgb(255, 255, 255);
     font-weight: 500;
     font-size: 15px;
+    cursor: pointer;
 }
 
 #button-right {
@@ -267,6 +269,7 @@ nav ul {
     color: rgb(13, 27, 42);
     font-weight: 500;
     font-size: 15px;
+    cursor: pointer;
 }
 
 ul li::marker {
@@ -275,3 +278,26 @@ ul li::marker {
 }
 
 /* pricing-section-end */
+
+/* footer-start */
+
+footer {
+    background-color: rgb(13, 27, 42);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+
+footer p {
+    color: rgb(110, 118, 127);
+    font-size: 16px;
+}
+
+.footer-text {
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+}
+
+/* footer-end */
