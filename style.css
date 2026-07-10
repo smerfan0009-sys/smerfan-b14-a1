@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: inter, sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 /* navbar-start */
@@ -80,14 +80,14 @@ nav ul {
 /* hero-section-end */
 
 /* speaker-section-start */
-.mian-speaker-section {
-    margin: 50px 0px 100px;
+.main-speaker-section {
+    margin: 50px 0px 150px;
 }
 
-.speakers h2 {
+.main-speaker-section h2 {
     text-align: center;
     font-size: 60px;
-    margin: 70px 0px 60px;
+    margin: 70px 0 60px;
 }
 
 .speaker-container {
@@ -104,9 +104,9 @@ nav ul {
     overflow: hidden;
 }
 
-.speaker-card h5,
-h3,
-p {
+.speaker-card>h3,
+.speaker-card>h5,
+.speaker-card>p {
     margin: 15px;
 }
 
@@ -135,36 +135,143 @@ p {
 /* pricing-section-start */
 
 
-.main-pricing-section .heading, p {
+/* section heading */
+.main-pricing-section h2,
+.main-pricing-section>p {
     text-align: center;
 }
 
 .main-pricing-section h2 {
-    font-size: 50px;
+    font-size: 60px;
     color: rgb(13, 27, 42);
+    margin-bottom: 20px;
 }
 
-.main-pricing-section p, ul {
+.main-pricing-section p {
     color: rgb(87, 87, 87);
 }
 
+/* pricing cards */
 .parent-pricing-card {
     display: flex;
-    justify-content: space-around;
-    margin-top: 100px;
+    justify-content: center;
+    gap: 30px;
+    margin: 100px 50px;
     line-height: 35px;
 }
 
-ul li::marker {
-    color: rgb(96, 165, 250);
-    font-size: 12px
+.left-right-card {
+    border: 1px solid #E5E7EB;
+    border-radius: 15px;
+    list-style-position: inside;
+    padding: 50px 50px;
 }
 
-.parent-pricing-card h5 {
-    color: rgb(136, 136, 136);
+
+.center-card {
+    background-color: rgb(13, 27, 42);
+    border-radius: 15px;
+    list-style-position: inside;
+    padding: 50px 50px;
 }
 
-hr {
-    color: rgb(229, 231, 235);
+.left-right-card hr {
+    background-color: rgb(229, 231, 235);
     height: 1px;
+    border: none;
+    width: 350px;
+    margin: 30px auto;
 }
+
+.center-card hr {
+    background-color: rgb(37, 50, 63);
+    height: 1px;
+    border: none;
+    width: 350px;
+    margin: 30px auto;
+}
+
+.left-right-card h3 {
+    color: rgb(13, 27, 42);
+    font-size: 45px;
+    margin: 5px 0px 3px;
+}
+
+.left-right-card h5 {
+    color: rgb(136, 136, 136);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.left-right-card ul {
+    color: rgb(51, 51, 51);
+}
+
+.center-card h3 {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    margin: 5px 0px 3px;
+}
+
+.center-card h5 {
+    color: rgb(147, 197, 253);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.center-card ul {
+    color: rgb(207, 209, 212);
+}
+
+.h6-common {
+    color: rgb(136, 136, 136);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* buttons */
+
+.left-right-card button,
+.center-card button {
+    display: block;
+    margin: 30px auto 0;
+}
+
+#button-left {
+    padding: 15px 150px;
+    border-radius: 10px;
+    border: 1.5px solid rgb(37, 99, 235);
+    background-color: white;
+    border-color: rgb(37, 99, 235);
+    color: rgb(37, 99, 235);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#button-center {
+    padding: 15px 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(37, 99, 235);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#button-right {
+    padding: 15px 150px;
+    border-radius: 10px;
+    border: 1.5px solid rgb(37, 99, 235);
+    background-color: white;
+    border-color: rgb(13, 27, 42);
+    color: rgb(13, 27, 42);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+ul li::marker {
+    color: rgb(37, 99, 235);
+    font-size: 15px;
+}
+
+/* pricing-section-end */
