@@ -347,21 +347,37 @@ ul li::marker {
 
 footer {
     background-color: rgb(13, 27, 42);
+    padding: 30px 100px;
+}
+
+.footer-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px 100px;
 }
 
-footer p {
-    color: rgb(110, 118, 127);
-    font-size: 16px;
-}
-
-.footer-text {
+.social-links {
     display: flex;
-    gap: 40px;
+    gap: 20px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
     cursor: pointer;
+}
+
+footer hr {
+    border: none;
+    height: 1px;
+    background-color: rgb(47, 61, 77);
+    margin: 20px 0 20px;
+}
+
+.copyright {
+    text-align: center;
+    color: rgb(110, 118, 127);
+    font-size: 15px;
 }
 
 /* footer-end */
