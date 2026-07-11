@@ -279,6 +279,67 @@ ul li::marker {
 
 /* pricing-section-end */
 
+/* AI-Genareted */
+
+/* faq-section-start */
+.faq-section {
+    margin: 150px 0;
+}
+
+.faq-section h2 {
+    text-align: center;
+    font-size: 60px;
+    color: rgb(13, 27, 42);
+}
+
+.faq-section>p {
+    text-align: center;
+    color: rgb(87, 87, 87);
+    margin: 20px 0 70px;
+}
+
+.faq-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+}
+
+.faq-card {
+    border: 1px solid rgb(229, 231, 235);
+    border-top: 3px solid rgb(37, 99, 235);
+    border-radius: 15px;
+    padding: 35px;
+    background-color: white;
+}
+
+.faq-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: rgba(37, 99, 235, 0.1);
+    color: rgb(37, 99, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.faq-card h3 {
+    color: rgb(13, 27, 42);
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.faq-card p {
+    color: rgb(87, 87, 87);
+    line-height: 30px;
+    font-size: 17px;
+}
+
+/* faq-section-end */
+
 /* footer-start */
 
 footer {
