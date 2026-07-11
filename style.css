@@ -347,7 +347,7 @@ ul li::marker {
 
 footer {
     background-color: rgb(13, 27, 42);
-    padding: 30px 100px;
+    padding: 35px 100px;
 }
 
 .footer-top {
@@ -356,22 +356,34 @@ footer {
     align-items: center;
 }
 
+.footer-top>img {
+    width: 140px;
+}
+
 .social-links {
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 
+.social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .social-links img {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    display: block;
 }
 
 footer hr {
     border: none;
     height: 1px;
     background-color: rgb(47, 61, 77);
-    margin: 20px 0 20px;
+    margin: 25px 0 20px;
 }
 
 .copyright {
