@@ -80,6 +80,7 @@ nav ul {
 /* hero-section-end */
 
 /* speaker-section-start */
+
 .main-speaker-section {
     margin: 50px 0px 150px;
 }
@@ -134,8 +135,8 @@ nav ul {
 
 /* pricing-section-start */
 
-
 /* section heading */
+
 .main-pricing-section h2,
 .main-pricing-section>p {
     text-align: center;
@@ -152,6 +153,7 @@ nav ul {
 }
 
 /* pricing cards */
+
 .parent-pricing-card {
     display: flex;
     justify-content: center;
@@ -282,6 +284,7 @@ ul li::marker {
 /* AI-Genareted */
 
 /* faq-section-start */
+
 .faq-section {
     margin: 150px 0;
 }
